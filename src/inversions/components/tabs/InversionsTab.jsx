@@ -12,52 +12,46 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import {getAllInversions} from '../../services/remote/get/GetAllInversions';
 //FIC: Columns Table Definition.
 const InstitutesColumns = [
+    
+    {
+        accessorKey: "ID",
+        header: "ID",
+        size: 50, //small column
+      },
+      
+    {
+        accessorKey: "DATE",
+        header: "FECHA",
+        size: 30, //small column
+      },
+      
+    {
+        accessorKey: "OPEN",
+        header: "OPEN",
+        size: 150, //small column
+      },
+      
+    {
+        accessorKey: "HIGH",
+        header: "HIGH",
+        size: 150, //small column
+      },
+      
+    {
+        accessorKey: "LOW",
+        header: "LOW",
+        size: 30, //small column
+      },
     {
       accessorKey: "CLOSE",
-      header: "ID OK",
+      header: "CLOSE",
       size: 30, //small column
-    },
-    {
-      accessorKey: "DATE",
-      header: "ID BK",
-      size: 30, //small column
-    },
-    {
-      accessorKey: "HIGH",
-      header: "INSTITUTO",
-      size: 150, //small column
-    },
-    {
-      accessorKey: "ID",
-      header: "ALIAS",
-      size: 50, //small column
-    },
-    {
-      accessorKey: "LOW",
-      header: "MATRIZ",
-      size: 30, //small column
-    },
-    {
-      accessorKey: "OPEN",
-      header: "GIRO",
-      size: 150, //small column
     },
     {
       accessorKey: "VOLUME",
-      header: "ID OK SUP",
+      header: "VOLUME",
       size: 30, //small column
     },
-    {
-      accessorKey: "__v",
-      header: "ID OK SUP",
-      size: 30, //small column
-    },
-    {
-      accessorKey: "__id",
-      header: "ID OK SUP",
-      size: 30, //small column
-    },
-    
   ];
 
 
