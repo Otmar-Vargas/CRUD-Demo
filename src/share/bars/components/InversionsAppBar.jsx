@@ -14,7 +14,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 //FIC: Add <--- Get submoduls security tables
 import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-const pages = ['Etiquetas', 'Periodos', 'Institutos', 'Usuarios'];
+const pages = ['Etiquetas', 'Periodos', 'Inversiones', 'Usuarios'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -69,8 +69,8 @@ function ResponsiveAppBar() {
             case "PERIODOS":
                 navigate("/periods");
                 break;
-            case "INSTITUTOS":
-                navigate("/institutes");
+            case "INVERSIONES":
+                navigate("/inversions");
                 break;
         }
     }, [myPages]); 
